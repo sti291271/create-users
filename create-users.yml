@@ -1,0 +1,8 @@
+---
+- name: "Create Linux user"
+
+  hosts: all
+  become: True
+
+  roles:
+    - create-user
